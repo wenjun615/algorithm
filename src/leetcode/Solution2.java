@@ -14,10 +14,9 @@ class Solution2 {
         if (matrix == null || matrix.length == 0 || matrix[0] == null || matrix[0].length == 0) {
             return false;
         }
-        int rows = matrix.length, cols = matrix[0].length;
-        // i表示行位置，j表示列位置
-        int i = rows - 1, j = 0;
-        while (i >= 0 && j < cols) {
+        // i 表示行位置，j 表示列位置
+        int i = matrix.length - 1, j = 0;
+        while (i >= 0 && j < matrix[0].length) {
             if (matrix[i][j] == target) {
                 return true;
             }

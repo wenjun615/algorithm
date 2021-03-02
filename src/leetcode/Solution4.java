@@ -23,9 +23,6 @@ class Solution4 {
         return res;
     }
 
-    /**
-     * 这里的List是链表的意思，ListNode表示链表节点
-     */
     class ListNode {
 
         int val;
