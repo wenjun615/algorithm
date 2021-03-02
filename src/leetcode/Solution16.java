@@ -6,6 +6,7 @@ package leetcode;
 class Solution16 {
 
     public ListNode mergeTwoList(ListNode l1, ListNode l2) {
+        // 假节点
         ListNode dummy = new ListNode(0);
         ListNode p = dummy;
         while (l1 != null && l2 != null) {
